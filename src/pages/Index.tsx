@@ -161,9 +161,11 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-neon-purple via-neon-pink to-neon-orange flex items-center justify-center glow-purple">
-                <Icon name="Music" size={24} className="text-white" />
-              </div>
+              <img 
+                src="https://cdn.poehali.dev/files/_tU9DmQxFNaJ6D0QUKu2UrPfPQn2zmW2YHDtSgLVI4EsWSpSFoH51iU17mgWAnUmHJYMLY0B60oni4bExYxJhJG7.jpg"
+                alt="SiberianSound Group"
+                className="w-12 h-12 object-contain"
+              />
               <h1 className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-neon-purple via-neon-pink to-neon-orange">
                 SiberianSound Group
               </h1>
