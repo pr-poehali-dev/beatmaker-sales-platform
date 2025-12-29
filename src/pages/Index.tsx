@@ -165,7 +165,7 @@ const Index = () => {
                 <Icon name="Music" size={24} className="text-white" />
               </div>
               <h1 className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-neon-purple via-neon-pink to-neon-orange">
-                BeatMarket
+                SiberianSound Group
               </h1>
             </div>
 
