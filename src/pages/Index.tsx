@@ -160,11 +160,11 @@ const Index = () => {
       <header className="sticky top-0 z-40 bg-card/95 backdrop-blur-lg border-b border-border glow-purple">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between gap-4">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 animate-slide-up">
               <img 
                 src="https://cdn.poehali.dev/files/_tU9DmQxFNaJ6D0QUKu2UrPfPQn2zmW2YHDtSgLVI4EsWSpSFoH51iU17mgWAnUmHJYMLY0B60oni4bExYxJhJG7.jpg"
                 alt="SiberianSound Group"
-                className="w-12 h-12 object-contain"
+                className="w-12 h-12 object-contain hover:scale-110 transition-transform duration-300"
               />
               <h1 className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-neon-purple via-neon-pink to-neon-orange">
                 SiberianSound Group
