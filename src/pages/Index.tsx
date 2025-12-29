@@ -167,7 +167,7 @@ const Index = () => {
                 className="w-12 h-12 object-contain hover:scale-110 transition-transform duration-300"
               />
               <h1 className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-neon-purple via-neon-pink to-neon-orange">
-                SiberianSound Group
+                SiberianSound
               </h1>
             </div>
 
