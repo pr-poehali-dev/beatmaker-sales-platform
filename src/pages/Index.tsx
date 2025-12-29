@@ -6,6 +6,7 @@ import TrackCard from '@/components/TrackCard';
 import AudioPlayer from '@/components/AudioPlayer';
 import ShoppingCart from '@/components/ShoppingCart';
 import GenreFilter from '@/components/GenreFilter';
+import UploadTrackDialog from '@/components/UploadTrackDialog';
 import { useToast } from '@/hooks/use-toast';
 
 interface Track {
@@ -188,13 +189,7 @@ const Index = () => {
             </div>
 
             <div className="flex items-center gap-3">
-              <Button
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary/10"
-              >
-                <Icon name="Upload" size={18} className="mr-2" />
-                Загрузить
-              </Button>
+              <UploadTrackDialog />
               <ShoppingCart
                 items={cartItems}
                 onRemoveItem={handleRemoveFromCart}
